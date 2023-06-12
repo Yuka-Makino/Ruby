@@ -1,4 +1,5 @@
-apple = "Nagano"
+apple = "Yamanashi"
+
 if apple == "Aomori"
     puts "このリンゴは青森県産です。"
 elsif apple =="Nagano"
