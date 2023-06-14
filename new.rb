@@ -29,3 +29,11 @@ end
 
 Car.run(10)
 car.move("右", 5)
+
+class Car
+  def self.turn(direction)
+    puts "車で#{direction}に曲がります。"
+  end 
+end 
+
+Car.turn("右")
