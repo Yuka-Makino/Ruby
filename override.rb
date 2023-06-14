@@ -12,3 +12,6 @@ end
 
 bus = Bus.new
 bus.run(5)
+
+car = Car.new
+car.run(5)
