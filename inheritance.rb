@@ -4,10 +4,7 @@ class Car
   end
 end
 
-class Bus
-  def run(distance)
-    puts "車で#{distance}キロ走ります。"
-  end
+class Bus < Car
 end
 
 bus = Bus.new
