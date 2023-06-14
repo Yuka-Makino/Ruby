@@ -9,3 +9,5 @@ end
 
 bus = Bus.new
 bus.run(5)
+
+puts Bus.superclass
